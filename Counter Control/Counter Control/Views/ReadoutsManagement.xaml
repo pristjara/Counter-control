@@ -1,0 +1,118 @@
+﻿<UserControl x:Class="Counter_Control.Views.ReadoutsManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:local="clr-namespace:Counter_Control.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="600"  d:DesignWidth="800">
+    <Grid>
+        <GroupBox Header="Meter Readouts Management">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <GroupBox Margin="5">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="btnAdd" Margin="10" HorizontalAlignment="Left" Click="btnAdd_Click" >
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/IMAGES/add.png" Width="30" Height="30" Margin="10 0"/>
+                                <TextBlock VerticalAlignment="Center" FontSize="14" Margin="10 0">Add new readout</TextBlock>
+                            </StackPanel>
+                        </Button>
+
+                        <!--<Button Name="btnRefresh" Margin="10" HorizontalAlignment="Left" Click="btnRefresh_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/IMAGES/refresh.png" Width="30" Height="30" Margin="10 0"/>
+                                <TextBlock VerticalAlignment="Center" FontSize="14" Margin="10 0">Refresh readout list</TextBlock>
+                            </StackPanel>
+                        </Button>-->
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Grid.Row="1" Margin="5">
+                    <GroupBox.Header>
+                        <Grid Margin="-3">
+                            <Label Content="ALL METERS" Foreground="White" Margin="5 0"/>
+                            <TextBox Name="txtMeterFilter" Width="200" HorizontalAlignment="Right" Margin="5 0" Controls:TextBoxHelper.Watermark="Filter" Controls:TextBoxHelper.ClearTextButton="True" TextChanged="txtMeterFilter_TextChanged" />
+                        </Grid>
+                    </GroupBox.Header>
+                    <Grid>
+                        <DataGrid Name="tbl_Meters" Height="150"
+                                  SelectionUnit="FullRow" IsReadOnly="True" ItemsSource="{Binding}"
+                                  AutoGenerateColumns="False" GridLinesVisibility="All"
+                                  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"                           
+                                  CanUserReorderColumns="False" MouseDoubleClick="ViewReadouts"
+                                  >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" MaxWidth="0" Binding="{Binding ID_METER,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Meter name" Binding="{Binding METER_NAME,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Type" Binding="{Binding METER_TYPE,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Units" Binding="{Binding METER_UNITS,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTemplateColumn Header="View readouts">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Name="btnViewReadouts" Content="View readouts" Margin="10 0" Click="ViewReadouts" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Add readout">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Name="btnViewReadouts" Content="Add readout" Margin="10 0" Click="AddReadout" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+
+                <GroupBox Grid.Row="2" Margin="5" Name="gbReadouts" >
+                    <GroupBox.Header>
+                        <Grid Margin="-3">
+                            <Label Name="lblReadoutsHeader" Content="READOUTS" Foreground="White" Margin="5 0"/>
+                            <TextBox Name="txtReadoutFilter" Width="200" HorizontalAlignment="Right" Margin="5 0" Controls:TextBoxHelper.Watermark="Filter" Controls:TextBoxHelper.ClearTextButton="True" TextChanged="txtReadoutFilter_TextChanged" />
+                        </Grid>
+                    </GroupBox.Header>
+                    <Grid>
+                        <DataGrid Name="tbl_Readouts"
+                                  SelectionUnit="FullRow" IsReadOnly="True" ItemsSource="{Binding}"
+                                  AutoGenerateColumns="False" GridLinesVisibility="All"
+                                  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"                           
+                                  CanUserReorderColumns="False" MinHeight="150" MaxHeight="250"
+                                  >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" MaxWidth="0" Binding="{Binding ID_READOUT,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Date" Binding="{Binding READOUT_DATE,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Value" Binding="{Binding READOUT_VALUE,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Comment" Binding="{Binding READOUT_COMMENT,UpdateSourceTrigger=PropertyChanged}" MaxWidth="400" />
+                                
+                                <DataGridTemplateColumn Header="Edit">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Name="btnEdit" Content="Edit" Width="70"  Margin="10 0" Click="EditReadout"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+
+                                <DataGridTemplateColumn Header="Delete">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Name="btnDelete" Content="Delete" Width="70" Margin="10 0" Click="DeleteReadout" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </GroupBox>        
+    </Grid>
+</UserControl>

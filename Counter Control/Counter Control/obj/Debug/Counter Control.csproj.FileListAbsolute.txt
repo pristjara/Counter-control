@@ -1,0 +1,128 @@
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\Counter Control.exe.config
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\Counter Control.exe
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\Counter Control.pdb
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\ControlzEx.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\MahApps.Metro.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\ControlzEx.pdb
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\MahApps.Metro.pdb
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\MahApps.Metro.xml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\MainWindow.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\App.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control_MarkupCompile.cache
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control_MarkupCompile.lref
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\App.baml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\MainWindow.baml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control.g.resources
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter_Control.Properties.Resources.resources
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.GenerateResource.cache
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.CopyComplete
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control.exe
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Counter Control.pdb
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\MeterManagement.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\ReadoutsManagement.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\MeterManagement.baml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\ReadoutsManagement.baml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\MeterReports.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\MeterReports.baml
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\EntityFramework.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\EntityFramework.xml
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\ManageReadout.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\ManageReadout.baml
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\LiveCharts.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\LiveCharts.pdb
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\LiveCharts.xml
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Max\source\repos\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\ManageMeter.g.cs
+C:\Users\Max\source\repos\Counter Control\Counter Control\obj\Debug\Views\ManageMeter.baml
+D:\Counter Control\Counter Control\bin\Debug\Counter Control.exe.config
+D:\Counter Control\Counter Control\bin\Debug\Counter Control.exe
+D:\Counter Control\Counter Control\bin\Debug\Counter Control.pdb
+D:\Counter Control\Counter Control\bin\Debug\ControlzEx.dll
+D:\Counter Control\Counter Control\bin\Debug\EntityFramework.dll
+D:\Counter Control\Counter Control\bin\Debug\EntityFramework.SqlServer.dll
+D:\Counter Control\Counter Control\bin\Debug\LiveCharts.dll
+D:\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.dll
+D:\Counter Control\Counter Control\bin\Debug\MahApps.Metro.dll
+D:\Counter Control\Counter Control\bin\Debug\System.Windows.Interactivity.dll
+D:\Counter Control\Counter Control\bin\Debug\ControlzEx.pdb
+D:\Counter Control\Counter Control\bin\Debug\EntityFramework.xml
+D:\Counter Control\Counter Control\bin\Debug\EntityFramework.SqlServer.xml
+D:\Counter Control\Counter Control\bin\Debug\LiveCharts.pdb
+D:\Counter Control\Counter Control\bin\Debug\LiveCharts.xml
+D:\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.pdb
+D:\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.xml
+D:\Counter Control\Counter Control\bin\Debug\MahApps.Metro.pdb
+D:\Counter Control\Counter Control\bin\Debug\MahApps.Metro.xml
+D:\Counter Control\Counter Control\obj\Debug\Counter Control.csprojResolveAssemblyReference.cache
+D:\Counter Control\Counter Control\obj\Debug\MainWindow.g.cs
+D:\Counter Control\Counter Control\obj\Debug\Views\ManageMeter.g.cs
+D:\Counter Control\Counter Control\obj\Debug\Views\ManageReadout.g.cs
+D:\Counter Control\Counter Control\obj\Debug\Views\MeterManagement.g.cs
+D:\Counter Control\Counter Control\obj\Debug\Views\MeterReports.g.cs
+D:\Counter Control\Counter Control\obj\Debug\Views\ReadoutsManagement.g.cs
+D:\Counter Control\Counter Control\obj\Debug\App.g.cs
+D:\Counter Control\Counter Control\obj\Debug\Counter Control_MarkupCompile.cache
+D:\Counter Control\Counter Control\obj\Debug\Counter Control_MarkupCompile.lref
+D:\Counter Control\Counter Control\obj\Debug\App.baml
+D:\Counter Control\Counter Control\obj\Debug\MainWindow.baml
+D:\Counter Control\Counter Control\obj\Debug\Views\ManageMeter.baml
+D:\Counter Control\Counter Control\obj\Debug\Views\ManageReadout.baml
+D:\Counter Control\Counter Control\obj\Debug\Views\MeterManagement.baml
+D:\Counter Control\Counter Control\obj\Debug\Views\MeterReports.baml
+D:\Counter Control\Counter Control\obj\Debug\Views\ReadoutsManagement.baml
+D:\Counter Control\Counter Control\obj\Debug\Counter Control.g.resources
+D:\Counter Control\Counter Control\obj\Debug\Counter_Control.Properties.Resources.resources
+D:\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.GenerateResource.Cache
+D:\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.CoreCompileInputs.cache
+D:\Counter Control\Counter Control\obj\Debug\Counter Control.exe
+D:\Counter Control\Counter Control\obj\Debug\Counter Control.pdb
+N:\Counter Control\Counter Control\bin\Debug\Counter Control.exe.config
+N:\Counter Control\Counter Control\bin\Debug\Counter Control.exe
+N:\Counter Control\Counter Control\bin\Debug\Counter Control.pdb
+N:\Counter Control\Counter Control\bin\Debug\ControlzEx.dll
+N:\Counter Control\Counter Control\bin\Debug\EntityFramework.dll
+N:\Counter Control\Counter Control\bin\Debug\EntityFramework.SqlServer.dll
+N:\Counter Control\Counter Control\bin\Debug\LiveCharts.dll
+N:\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.dll
+N:\Counter Control\Counter Control\bin\Debug\MahApps.Metro.dll
+N:\Counter Control\Counter Control\bin\Debug\System.Windows.Interactivity.dll
+N:\Counter Control\Counter Control\bin\Debug\ControlzEx.pdb
+N:\Counter Control\Counter Control\bin\Debug\EntityFramework.xml
+N:\Counter Control\Counter Control\bin\Debug\EntityFramework.SqlServer.xml
+N:\Counter Control\Counter Control\bin\Debug\LiveCharts.pdb
+N:\Counter Control\Counter Control\bin\Debug\LiveCharts.xml
+N:\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.pdb
+N:\Counter Control\Counter Control\bin\Debug\LiveCharts.Wpf.xml
+N:\Counter Control\Counter Control\bin\Debug\MahApps.Metro.pdb
+N:\Counter Control\Counter Control\bin\Debug\MahApps.Metro.xml
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.csprojAssemblyReference.cache
+N:\Counter Control\Counter Control\obj\Debug\MainWindow.g.cs
+N:\Counter Control\Counter Control\obj\Debug\Views\ManageMeter.g.cs
+N:\Counter Control\Counter Control\obj\Debug\Views\ManageReadout.g.cs
+N:\Counter Control\Counter Control\obj\Debug\Views\MeterManagement.g.cs
+N:\Counter Control\Counter Control\obj\Debug\Views\MeterReports.g.cs
+N:\Counter Control\Counter Control\obj\Debug\Views\ReadoutsManagement.g.cs
+N:\Counter Control\Counter Control\obj\Debug\App.g.cs
+N:\Counter Control\Counter Control\obj\Debug\Counter Control_MarkupCompile.cache
+N:\Counter Control\Counter Control\obj\Debug\Counter Control_MarkupCompile.lref
+N:\Counter Control\Counter Control\obj\Debug\App.baml
+N:\Counter Control\Counter Control\obj\Debug\MainWindow.baml
+N:\Counter Control\Counter Control\obj\Debug\Views\ManageMeter.baml
+N:\Counter Control\Counter Control\obj\Debug\Views\ManageReadout.baml
+N:\Counter Control\Counter Control\obj\Debug\Views\MeterManagement.baml
+N:\Counter Control\Counter Control\obj\Debug\Views\MeterReports.baml
+N:\Counter Control\Counter Control\obj\Debug\Views\ReadoutsManagement.baml
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.g.resources
+N:\Counter Control\Counter Control\obj\Debug\Counter_Control.Properties.Resources.resources
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.GenerateResource.cache
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.CoreCompileInputs.cache
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.csproj.CopyComplete
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.exe
+N:\Counter Control\Counter Control\obj\Debug\Counter Control.pdb
+N:\Counter Control\Counter Control\obj\Debug\Counter Control_Content.g.cs

@@ -1,0 +1,50 @@
+﻿<Controls:MetroWindow  x:Class="Counter_Control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Counter_Control"
+        mc:Ignorable="d"
+                        ResizeMode="CanMinimize" Icon="IMAGES\_ICON.ico"
+        Title="Counter Control" SizeToContent="WidthAndHeight" MinWidth="400" MinHeight="200" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="House number 7 counters" HorizontalAlignment="Center" FontSize="23" FontWeight="Bold"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+
+            <Button Name="btnCounters" Margin="10" Click="btnCounters_Click" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/IMAGES/meter_1.png" Width="40" Height="40" Margin="10 0"/>
+                    <TextBlock VerticalAlignment="Center" FontSize="14" Margin="10 0">Manage Energy Meters</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Name="btnReadings" Margin="10" Click="btnReadings_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/IMAGES/readouts.png" Width="40" Height="40" Margin="10 0"/>
+                    <TextBlock VerticalAlignment="Center" FontSize="14" Margin="10 0">Manage Energy Meter readouts</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Name="btnReport" Margin="10" Click="btnReport_Click" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/IMAGES/graph_1.png" Width="40" Height="40" Margin="10 0"/>
+                    <TextBlock VerticalAlignment="Center" FontSize="14" Margin="10 0">Energy Meter Reports</TextBlock>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+        <UserControl Grid.Row="2" Name="userControl" Margin="5"/>
+
+        <Label Grid.Row="3" Content="Maxima Panteleeva testa uzdevums" FontSize="8" Margin="5 0" /> 
+    </Grid>
+</Controls:MetroWindow>
